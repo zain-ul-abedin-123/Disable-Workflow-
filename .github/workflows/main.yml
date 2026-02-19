@@ -1,0 +1,14 @@
+name: Zain Disbale the Worlflow concurrency
+
+on:
+  push: 
+    branches: [ main ]
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Zain
+        run: echo "disbale the workflow now you created right now"
